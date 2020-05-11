@@ -1,0 +1,49 @@
+.a{
+  page-break-after:always !important
+}
+
+.login_warp{
+  background:pink;
+  position: relative;
+}
+
+.login_warp img{
+  position: relative;
+  left:5px;
+  top:20px;
+}
+
+.login_warp div{
+  position: relative;
+  left:10px;
+  top:20px;
+}
+
+.img_code{
+  width: 130px;
+  height:130px;
+}
+
+
+table {
+  width: 600px;
+  height: 430px;
+  font-weight: 800;
+  border: 1px solid #000;
+
+}
+
+td{
+  border: 1px solid #000;
+  font-size: 22px;
+  line-height: 28px;
+  text-align:center;
+}
+
+.shuliangdanwei{
+  font-size:26px;
+}
+
+.liaohao{
+  font-size:26px;
+}

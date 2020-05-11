@@ -1,0 +1,2346 @@
+[
+  {
+    "value": "0001",
+    "parentValue": "-1",
+    "label": "中国",
+    "children": [
+      {
+        "value": "1",
+        "parentValue": "0001",
+        "label": "北京市",
+        "children": [
+          {
+            "value": "35",
+            "parentValue": "1",
+            "label": "北京市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "10",
+        "parentValue": "0001",
+        "label": "江苏省",
+        "children": [
+          {
+            "value": "108",
+            "parentValue": "10",
+            "lable": "南京市",
+            "children": null
+          },
+          {
+            "value": "109",
+            "parentValue": "10",
+            "label": "无锡市",
+            "children": null
+          },
+          {
+            "value": "110",
+            "parentValue": "10",
+            "label": "徐州市",
+            "children": null
+          },
+          {
+            "value": "111",
+            "parentValue": "10",
+            "label": "常州市",
+            "children": null
+          },
+          {
+            "value": "112",
+            "parentValue": "10",
+            "label": "苏州市",
+            "children": null
+          },
+          {
+            "value": "113",
+            "parentValue": "10",
+            "label": "南通市",
+            "children": null
+          },
+          {
+            "value": "114",
+            "parentValue": "10",
+            "label": "连云港市",
+            "children": null
+          },
+          {
+            "value": "115",
+            "parentValue": "10",
+            "label": "淮安市",
+            "children": null
+          },
+          {
+            "value": "116",
+            "parentValue": "10",
+            "label": "盐城市",
+            "children": null
+          },
+          {
+            "value": "117",
+            "parentValue": "10",
+            "label": "扬州市",
+            "children": null
+          },
+          {
+            "value": "118",
+            "parentValue": "10",
+            "label": "镇江市",
+            "children": null
+          },
+          {
+            "value": "119",
+            "parentValue": "10",
+            "label": "泰州市",
+            "children": null
+          },
+          {
+            "value": "120",
+            "parentValue": "10",
+            "label": "宿迁市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "11",
+        "parentValue": "0001",
+        "label": "浙江省",
+        "children": [
+          {
+            "value": "121",
+            "parentValue": "11",
+            "label": "杭州市",
+            "children": null
+          },
+          {
+            "value": "122",
+            "parentValue": "11",
+            "label": "宁波市",
+            "children": null
+          },
+          {
+            "value": "123",
+            "parentValue": "11",
+            "label": "温州市",
+            "children": null
+          },
+          {
+            "value": "124",
+            "parentValue": "11",
+            "label": "嘉兴市",
+            "children": null
+          },
+          {
+            "value": "125",
+            "parentValue": "11",
+            "label": "湖州市",
+            "children": null
+          },
+          {
+            "value": "126",
+            "parentValue": "11",
+            "label": "绍兴市",
+            "children": null
+          },
+          {
+            "value": "127",
+            "parentValue": "11",
+            "label": "金华市",
+            "children": null
+          },
+          {
+            "value": "128",
+            "parentValue": "11",
+            "label": "衢州市",
+            "children": null
+          },
+          {
+            "value": "129",
+            "parentValue": "11",
+            "label": "舟山市",
+            "children": null
+          },
+          {
+            "value": "130",
+            "parentValue": "11",
+            "label": "台州市",
+            "children": null
+          },
+          {
+            "value": "131",
+            "parentValue": "11",
+            "label": "丽水市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "12",
+        "parentValue": "0001",
+        "label": "安徽省",
+        "children": [
+          {
+            "value": "132",
+            "parentValue": "12",
+            "label": "合肥市",
+            "children": null
+          },
+          {
+            "value": "133",
+            "parentValue": "12",
+            "label": "芜湖市",
+            "children": null
+          },
+          {
+            "value": "134",
+            "parentValue": "12",
+            "label": "蚌埠市",
+            "children": null
+          },
+          {
+            "value": "135",
+            "parentValue": "12",
+            "label": "淮南市",
+            "children": null
+          },
+          {
+            "value": "136",
+            "parentValue": "12",
+            "label": "马鞍山市",
+            "children": null
+          },
+          {
+            "value": "137",
+            "parentValue": "12",
+            "label": "淮北市",
+            "children": null
+          },
+          {
+            "value": "138",
+            "parentValue": "12",
+            "label": "铜陵市",
+            "children": null
+          },
+          {
+            "value": "139",
+            "parentValue": "12",
+            "label": "安庆市",
+            "children": null
+          },
+          {
+            "value": "140",
+            "parentValue": "12",
+            "label": "黄山市",
+            "children": null
+          },
+          {
+            "value": "141",
+            "parentValue": "12",
+            "label": "滁州市",
+            "children": null
+          },
+          {
+            "value": "142",
+            "parentValue": "12",
+            "label": "阜阳市",
+            "children": null
+          },
+          {
+            "value": "143",
+            "parentValue": "12",
+            "label": "宿州市",
+            "children": null
+          },
+          {
+            "value": "144",
+            "parentValue": "12",
+            "label": "巢湖市",
+            "children": null
+          },
+          {
+            "value": "145",
+            "parentValue": "12",
+            "label": "六安市",
+            "children": null
+          },
+          {
+            "value": "146",
+            "parentValue": "12",
+            "label": "亳州市",
+            "children": null
+          },
+          {
+            "value": "147",
+            "parentValue": "12",
+            "label": "池州市",
+            "children": null
+          },
+          {
+            "value": "148",
+            "parentValue": "12",
+            "label": "宣城市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "13",
+        "parentValue": "0001",
+        "label": "福建省",
+        "children": [
+          {
+            "value": "149",
+            "parentValue": "13",
+            "label": "福州市",
+            "children": null
+          },
+          {
+            "value": "150",
+            "parentValue": "13",
+            "label": "厦门市",
+            "children": null
+          },
+          {
+            "value": "151",
+            "parentValue": "13",
+            "label": "莆田市",
+            "children": null
+          },
+          {
+            "value": "152",
+            "parentValue": "13",
+            "label": "三明市",
+            "children": null
+          },
+          {
+            "value": "153",
+            "parentValue": "13",
+            "label": "泉州市",
+            "children": null
+          },
+          {
+            "value": "154",
+            "parentValue": "13",
+            "label": "漳州市",
+            "children": null
+          },
+          {
+            "value": "155",
+            "parentValue": "13",
+            "label": "南平市",
+            "children": null
+          },
+          {
+            "value": "156",
+            "parentValue": "13",
+            "label": "龙岩市",
+            "children": null
+          },
+          {
+            "value": "157",
+            "parentValue": "13",
+            "label": "宁德市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "14",
+        "parentValue": "0001",
+        "label": "江西省",
+        "children": [
+          {
+            "value": "158",
+            "parentValue": "14",
+            "label": "南昌市",
+            "children": null
+          },
+          {
+            "value": "159",
+            "parentValue": "14",
+            "label": "景德镇市",
+            "children": null
+          },
+          {
+            "value": "160",
+            "parentValue": "14",
+            "label": "萍乡市",
+            "children": null
+          },
+          {
+            "value": "161",
+            "parentValue": "14",
+            "label": "九江市",
+            "children": null
+          },
+          {
+            "value": "162",
+            "parentValue": "14",
+            "label": "新余市",
+            "children": null
+          },
+          {
+            "value": "163",
+            "parentValue": "14",
+            "label": "鹰潭市",
+            "children": null
+          },
+          {
+            "value": "164",
+            "parentValue": "14",
+            "label": "赣州市",
+            "children": null
+          },
+          {
+            "value": "165",
+            "parentValue": "14",
+            "label": "吉安市",
+            "children": null
+          },
+          {
+            "value": "166",
+            "parentValue": "14",
+            "label": "宜春市",
+            "children": null
+          },
+          {
+            "value": "167",
+            "parentValue": "14",
+            "label": "抚州市",
+            "children": null
+          },
+          {
+            "value": "168",
+            "parentValue": "14",
+            "label": "上饶市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "15",
+        "parentValue": "0001",
+        "label": "山东省",
+        "children": [
+          {
+            "value": "169",
+            "parentValue": "15",
+            "label": "济南市",
+            "children": null
+          },
+          {
+            "value": "170",
+            "parentValue": "15",
+            "label": "青岛市",
+            "children": null
+          },
+          {
+            "value": "171",
+            "parentValue": "15",
+            "label": "淄博市",
+            "children": null
+          },
+          {
+            "value": "172",
+            "parentValue": "15",
+            "label": "枣庄市",
+            "children": null
+          },
+          {
+            "value": "173",
+            "parentValue": "15",
+            "label": "东营市",
+            "children": null
+          },
+          {
+            "value": "174",
+            "parentValue": "15",
+            "label": "烟台市",
+            "children": null
+          },
+          {
+            "value": "175",
+            "parentValue": "15",
+            "label": "潍坊市",
+            "children": null
+          },
+          {
+            "value": "176",
+            "parentValue": "15",
+            "label": "济宁市",
+            "children": null
+          },
+          {
+            "value": "177",
+            "parentValue": "15",
+            "label": "泰安市",
+            "children": null
+          },
+          {
+            "value": "178",
+            "parentValue": "15",
+            "label": "威海市",
+            "children": null
+          },
+          {
+            "value": "179",
+            "parentValue": "15",
+            "label": "日照市",
+            "children": null
+          },
+          {
+            "value": "180",
+            "parentValue": "15",
+            "label": "莱芜市",
+            "children": null
+          },
+          {
+            "value": "181",
+            "parentValue": "15",
+            "label": "临沂市",
+            "children": null
+          },
+          {
+            "value": "182",
+            "parentValue": "15",
+            "label": "德州市",
+            "children": null
+          },
+          {
+            "value": "183",
+            "parentValue": "15",
+            "label": "聊城市",
+            "children": null
+          },
+          {
+            "value": "184",
+            "parentValue": "15",
+            "label": "滨州市",
+            "children": null
+          },
+          {
+            "value": "185",
+            "parentValue": "15",
+            "label": "荷泽市",
+            "children": null
+          },
+          {
+            "value": "3243",
+            "parentValue": "15",
+            "label": "菏泽市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "16",
+        "parentValue": "0001",
+        "label": "河南省",
+        "children": [
+          {
+            "value": "186",
+            "parentValue": "16",
+            "label": "郑州市",
+            "children": null
+          },
+          {
+            "value": "187",
+            "parentValue": "16",
+            "label": "开封市",
+            "children": null
+          },
+          {
+            "value": "188",
+            "parentValue": "16",
+            "label": "洛阳市",
+            "children": null
+          },
+          {
+            "value": "189",
+            "parentValue": "16",
+            "label": "平顶山市",
+            "children": null
+          },
+          {
+            "value": "190",
+            "parentValue": "16",
+            "label": "安阳市",
+            "children": null
+          },
+          {
+            "value": "191",
+            "parentValue": "16",
+            "label": "鹤壁市",
+            "children": null
+          },
+          {
+            "value": "192",
+            "parentValue": "16",
+            "label": "新乡市",
+            "children": null
+          },
+          {
+            "value": "193",
+            "parentValue": "16",
+            "label": "焦作市",
+            "children": null
+          },
+          {
+            "value": "194",
+            "parentValue": "16",
+            "label": "濮阳市",
+            "children": null
+          },
+          {
+            "value": "195",
+            "parentValue": "16",
+            "label": "许昌市",
+            "children": null
+          },
+          {
+            "value": "196",
+            "parentValue": "16",
+            "label": "漯河市",
+            "children": null
+          },
+          {
+            "value": "197",
+            "parentValue": "16",
+            "label": "三门峡市",
+            "children": null
+          },
+          {
+            "value": "198",
+            "parentValue": "16",
+            "label": "南阳市",
+            "children": null
+          },
+          {
+            "value": "199",
+            "parentValue": "16",
+            "label": "商丘市",
+            "children": null
+          },
+          {
+            "value": "200",
+            "parentValue": "16",
+            "label": "信阳市",
+            "children": null
+          },
+          {
+            "value": "201",
+            "parentValue": "16",
+            "label": "周口市",
+            "children": null
+          },
+          {
+            "value": "202",
+            "parentValue": "16",
+            "label": "驻马店市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "17",
+        "parentValue": "0001",
+        "label": "湖北省",
+        "children": [
+          {
+            "value": "203",
+            "parentValue": "17",
+            "label": "武汉市",
+            "children": null
+          },
+          {
+            "value": "204",
+            "parentValue": "17",
+            "label": "黄石市",
+            "children": null
+          },
+          {
+            "value": "205",
+            "parentValue": "17",
+            "label": "十堰市",
+            "children": null
+          },
+          {
+            "value": "206",
+            "parentValue": "17",
+            "label": "宜昌市",
+            "children": null
+          },
+          {
+            "value": "207",
+            "parentValue": "17",
+            "label": "襄樊市",
+            "children": null
+          },
+          {
+            "value": "208",
+            "parentValue": "17",
+            "label": "鄂州市",
+            "children": null
+          },
+          {
+            "value": "209",
+            "parentValue": "17",
+            "label": "荆门市",
+            "children": null
+          },
+          {
+            "value": "210",
+            "parentValue": "17",
+            "label": "孝感市",
+            "children": null
+          },
+          {
+            "value": "211",
+            "parentValue": "17",
+            "label": "荆州市",
+            "children": null
+          },
+          {
+            "value": "212",
+            "parentValue": "17",
+            "label": "黄冈市",
+            "children": null
+          },
+          {
+            "value": "213",
+            "parentValue": "17",
+            "label": "咸宁市",
+            "children": null
+          },
+          {
+            "value": "214",
+            "parentValue": "17",
+            "label": "随州市",
+            "children": null
+          },
+          {
+            "value": "215",
+            "parentValue": "17",
+            "label": "恩施土家族苗族自治州",
+            "children": null
+          },
+          {
+            "value": "216",
+            "parentValue": "17",
+            "label": "神农架",
+            "children": null
+          },
+          {
+            "value": "3242",
+            "parentValue": "17",
+            "label": "恩施州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "18",
+        "parentValue": "0001",
+        "label": "湖南省",
+        "children": [
+          {
+            "value": "217",
+            "parentValue": "18",
+            "label": "长沙市",
+            "children": null
+          },
+          {
+            "value": "218",
+            "parentValue": "18",
+            "label": "株洲市",
+            "children": null
+          },
+          {
+            "value": "219",
+            "parentValue": "18",
+            "label": "湘潭市",
+            "children": null
+          },
+          {
+            "value": "220",
+            "parentValue": "18",
+            "label": "衡阳市",
+            "children": null
+          },
+          {
+            "value": "221",
+            "parentValue": "18",
+            "label": "邵阳市",
+            "children": null
+          },
+          {
+            "value": "222",
+            "parentValue": "18",
+            "label": "岳阳市",
+            "children": null
+          },
+          {
+            "value": "223",
+            "parentValue": "18",
+            "label": "常德市",
+            "children": null
+          },
+          {
+            "value": "224",
+            "parentValue": "18",
+            "label": "张家界市",
+            "children": null
+          },
+          {
+            "value": "225",
+            "parentValue": "18",
+            "label": "益阳市",
+            "children": null
+          },
+          {
+            "value": "226",
+            "parentValue": "18",
+            "label": "郴州市",
+            "children": null
+          },
+          {
+            "value": "227",
+            "parentValue": "18",
+            "label": "永州市",
+            "children": null
+          },
+          {
+            "value": "228",
+            "parentValue": "18",
+            "label": "怀化市",
+            "children": null
+          },
+          {
+            "value": "229",
+            "parentValue": "18",
+            "label": "娄底市",
+            "children": null
+          },
+          {
+            "value": "230",
+            "parentValue": "18",
+            "label": "湘西土家族苗族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "19",
+        "parentValue": "0001",
+        "label": "广东省",
+        "children": [
+          {
+            "value": "231",
+            "parentValue": "19",
+            "label": "广州市",
+            "children": null
+          },
+          {
+            "value": "232",
+            "parentValue": "19",
+            "label": "韶关市",
+            "children": null
+          },
+          {
+            "value": "233",
+            "parentValue": "19",
+            "label": "深圳市",
+            "children": null
+          },
+          {
+            "value": "234",
+            "parentValue": "19",
+            "label": "珠海市",
+            "children": null
+          },
+          {
+            "value": "235",
+            "parentValue": "19",
+            "label": "汕头市",
+            "children": null
+          },
+          {
+            "value": "236",
+            "parentValue": "19",
+            "label": "佛山市",
+            "children": null
+          },
+          {
+            "value": "237",
+            "parentValue": "19",
+            "label": "江门市",
+            "children": null
+          },
+          {
+            "value": "238",
+            "parentValue": "19",
+            "label": "湛江市",
+            "children": null
+          },
+          {
+            "value": "239",
+            "parentValue": "19",
+            "label": "茂名市",
+            "children": null
+          },
+          {
+            "value": "240",
+            "parentValue": "19",
+            "label": "肇庆市",
+            "children": null
+          },
+          {
+            "value": "241",
+            "parentValue": "19",
+            "label": "惠州市",
+            "children": null
+          },
+          {
+            "value": "242",
+            "parentValue": "19",
+            "label": "梅州市",
+            "children": null
+          },
+          {
+            "value": "243",
+            "parentValue": "19",
+            "label": "汕尾市",
+            "children": null
+          },
+          {
+            "value": "244",
+            "parentValue": "19",
+            "label": "河源市",
+            "children": null
+          },
+          {
+            "value": "245",
+            "parentValue": "19",
+            "label": "阳江市",
+            "children": null
+          },
+          {
+            "value": "246",
+            "parentValue": "19",
+            "label": "清远市",
+            "children": null
+          },
+          {
+            "value": "247",
+            "parentValue": "19",
+            "label": "东莞市",
+            "children": null
+          },
+          {
+            "value": "248",
+            "parentValue": "19",
+            "label": "中山市",
+            "children": null
+          },
+          {
+            "value": "249",
+            "parentValue": "19",
+            "label": "潮州市",
+            "children": null
+          },
+          {
+            "value": "250",
+            "parentValue": "19",
+            "label": "揭阳市",
+            "children": null
+          },
+          {
+            "value": "251",
+            "parentValue": "19",
+            "label": "云浮市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "2",
+        "parentValue": "0001",
+        "label": "天津市",
+        "children": [
+          {
+            "value": "36",
+            "parentValue": "2",
+            "label": "天津市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "20",
+        "parentValue": "0001",
+        "label": "广西壮族自治区",
+        "children": [
+          {
+            "value": "252",
+            "parentValue": "20",
+            "label": "南宁市",
+            "children": null
+          },
+          {
+            "value": "253",
+            "parentValue": "20",
+            "label": "柳州市",
+            "children": null
+          },
+          {
+            "value": "254",
+            "parentValue": "20",
+            "label": "桂林市",
+            "children": null
+          },
+          {
+            "value": "255",
+            "parentValue": "20",
+            "label": "梧州市",
+            "children": null
+          },
+          {
+            "value": "256",
+            "parentValue": "20",
+            "label": "北海市",
+            "children": null
+          },
+          {
+            "value": "257",
+            "parentValue": "20",
+            "label": "防城港市",
+            "children": null
+          },
+          {
+            "value": "258",
+            "parentValue": "20",
+            "label": "钦州市",
+            "children": null
+          },
+          {
+            "value": "259",
+            "parentValue": "20",
+            "label": "贵港市",
+            "children": null
+          },
+          {
+            "value": "260",
+            "parentValue": "20",
+            "label": "玉林市",
+            "children": null
+          },
+          {
+            "value": "261",
+            "parentValue": "20",
+            "label": "百色市",
+            "children": null
+          },
+          {
+            "value": "262",
+            "parentValue": "20",
+            "label": "贺州市",
+            "children": null
+          },
+          {
+            "value": "263",
+            "parentValue": "20",
+            "label": "河池市",
+            "children": null
+          },
+          {
+            "value": "264",
+            "parentValue": "20",
+            "label": "来宾市",
+            "children": null
+          },
+          {
+            "value": "265",
+            "parentValue": "20",
+            "label": "崇左市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "21",
+        "parentValue": "0001",
+        "label": "海南省",
+        "children": [
+          {
+            "value": "266",
+            "parentValue": "21",
+            "label": "海口市",
+            "children": null
+          },
+          {
+            "value": "267",
+            "parentValue": "21",
+            "label": "三亚市",
+            "children": null
+          },
+          {
+            "value": "3244",
+            "parentValue": "21",
+            "label": "三沙市",
+            "children": null
+          },
+          {
+            "value": "3245",
+            "parentValue": "21",
+            "label": "儋州市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "22",
+        "parentValue": "0001",
+        "label": "重庆市",
+        "children": [
+          {
+            "value": "268",
+            "parentValue": "22",
+            "label": "重庆市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "23",
+        "parentValue": "0001",
+        "label": "四川省",
+        "children": [
+          {
+            "value": "269",
+            "parentValue": "23",
+            "label": "成都市",
+            "children": null
+          },
+          {
+            "value": "270",
+            "parentValue": "23",
+            "label": "自贡市",
+            "children": null
+          },
+          {
+            "value": "271",
+            "parentValue": "23",
+            "label": "攀枝花市",
+            "children": null
+          },
+          {
+            "value": "272",
+            "parentValue": "23",
+            "label": "泸州市",
+            "children": null
+          },
+          {
+            "value": "273",
+            "parentValue": "23",
+            "label": "德阳市",
+            "children": null
+          },
+          {
+            "value": "274",
+            "parentValue": "23",
+            "label": "绵阳市",
+            "children": null
+          },
+          {
+            "value": "275",
+            "parentValue": "23",
+            "label": "广元市",
+            "children": null
+          },
+          {
+            "value": "276",
+            "parentValue": "23",
+            "label": "遂宁市",
+            "children": null
+          },
+          {
+            "value": "277",
+            "parentValue": "23",
+            "label": "内江市",
+            "children": null
+          },
+          {
+            "value": "278",
+            "parentValue": "23",
+            "label": "乐山市",
+            "children": null
+          },
+          {
+            "value": "279",
+            "parentValue": "23",
+            "label": "南充市",
+            "children": null
+          },
+          {
+            "value": "280",
+            "parentValue": "23",
+            "label": "眉山市",
+            "children": null
+          },
+          {
+            "value": "281",
+            "parentValue": "23",
+            "label": "宜宾市",
+            "children": null
+          },
+          {
+            "value": "282",
+            "parentValue": "23",
+            "label": "广安市",
+            "children": null
+          },
+          {
+            "value": "283",
+            "parentValue": "23",
+            "label": "达州市",
+            "children": null
+          },
+          {
+            "value": "284",
+            "parentValue": "23",
+            "label": "雅安市",
+            "children": null
+          },
+          {
+            "value": "285",
+            "parentValue": "23",
+            "label": "巴中市",
+            "children": null
+          },
+          {
+            "value": "286",
+            "parentValue": "23",
+            "label": "资阳市",
+            "children": null
+          },
+          {
+            "value": "287",
+            "parentValue": "23",
+            "label": "阿坝藏族羌族自治州",
+            "children": null
+          },
+          {
+            "value": "288",
+            "parentValue": "23",
+            "label": "甘孜藏族自治州",
+            "children": null
+          },
+          {
+            "value": "289",
+            "parentValue": "23",
+            "label": "凉山彝族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "24",
+        "parentValue": "0001",
+        "label": "贵州省",
+        "children": [
+          {
+            "value": "290",
+            "parentValue": "24",
+            "label": "贵阳市",
+            "children": null
+          },
+          {
+            "value": "291",
+            "parentValue": "24",
+            "label": "六盘水市",
+            "children": null
+          },
+          {
+            "value": "292",
+            "parentValue": "24",
+            "label": "遵义市",
+            "children": null
+          },
+          {
+            "value": "293",
+            "parentValue": "24",
+            "label": "安顺市",
+            "children": null
+          },
+          {
+            "value": "294",
+            "parentValue": "24",
+            "label": "铜仁地区",
+            "children": null
+          },
+          {
+            "value": "295",
+            "parentValue": "24",
+            "label": "黔西南布依族苗族自治州",
+            "children": null
+          },
+          {
+            "value": "296",
+            "parentValue": "24",
+            "label": "毕节地区",
+            "children": null
+          },
+          {
+            "value": "297",
+            "parentValue": "24",
+            "label": "黔东南苗族侗族自治州",
+            "children": null
+          },
+          {
+            "value": "298",
+            "parentValue": "24",
+            "label": "黔南布依族苗族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "25",
+        "parentValue": "0001",
+        "label": "云南省",
+        "children": [
+          {
+            "value": "299",
+            "parentValue": "25",
+            "label": "昆明市",
+            "children": null
+          },
+          {
+            "value": "300",
+            "parentValue": "25",
+            "label": "曲靖市",
+            "children": null
+          },
+          {
+            "value": "301",
+            "parentValue": "25",
+            "label": "玉溪市",
+            "children": null
+          },
+          {
+            "value": "302",
+            "parentValue": "25",
+            "label": "保山市",
+            "children": null
+          },
+          {
+            "value": "303",
+            "parentValue": "25",
+            "label": "昭通市",
+            "children": null
+          },
+          {
+            "value": "304",
+            "parentValue": "25",
+            "label": "丽江市",
+            "children": null
+          },
+          {
+            "value": "305",
+            "parentValue": "25",
+            "label": "思茅市",
+            "children": null
+          },
+          {
+            "value": "306",
+            "parentValue": "25",
+            "label": "临沧市",
+            "children": null
+          },
+          {
+            "value": "307",
+            "parentValue": "25",
+            "label": "楚雄彝族自治州",
+            "children": null
+          },
+          {
+            "value": "308",
+            "parentValue": "25",
+            "label": "红河哈尼族彝族自治州",
+            "children": null
+          },
+          {
+            "value": "309",
+            "parentValue": "25",
+            "label": "文山壮族苗族自治州",
+            "children": null
+          },
+          {
+            "value": "310",
+            "parentValue": "25",
+            "label": "西双版纳傣族自治州",
+            "children": null
+          },
+          {
+            "value": "311",
+            "parentValue": "25",
+            "label": "大理白族自治州",
+            "children": null
+          },
+          {
+            "value": "312",
+            "parentValue": "25",
+            "label": "德宏傣族景颇族自治州",
+            "children": null
+          },
+          {
+            "value": "313",
+            "parentValue": "25",
+            "label": "怒江傈僳族自治州",
+            "children": null
+          },
+          {
+            "value": "314",
+            "parentValue": "25",
+            "label": "迪庆藏族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "26",
+        "parentValue": "0001",
+        "label": "西藏自治区",
+        "children": [
+          {
+            "value": "315",
+            "parentValue": "26",
+            "label": "拉萨市",
+            "children": null
+          },
+          {
+            "value": "316",
+            "parentValue": "26",
+            "label": "昌都地区",
+            "children": null
+          },
+          {
+            "value": "317",
+            "parentValue": "26",
+            "label": "山南地区",
+            "children": null
+          },
+          {
+            "value": "318",
+            "parentValue": "26",
+            "label": "日喀则地区",
+            "children": null
+          },
+          {
+            "value": "319",
+            "parentValue": "26",
+            "label": "那曲地区",
+            "children": null
+          },
+          {
+            "value": "320",
+            "parentValue": "26",
+            "label": "阿里地区",
+            "children": null
+          },
+          {
+            "value": "321",
+            "parentValue": "26",
+            "label": "林芝地区",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "27",
+        "parentValue": "0001",
+        "label": "陕西省",
+        "children": [
+          {
+            "value": "322",
+            "parentValue": "27",
+            "label": "西安市",
+            "children": null
+          },
+          {
+            "value": "323",
+            "parentValue": "27",
+            "label": "铜川市",
+            "children": null
+          },
+          {
+            "value": "324",
+            "parentValue": "27",
+            "label": "宝鸡市",
+            "children": null
+          },
+          {
+            "value": "325",
+            "parentValue": "27",
+            "label": "咸阳市",
+            "children": null
+          },
+          {
+            "value": "326",
+            "parentValue": "27",
+            "label": "渭南市",
+            "children": null
+          },
+          {
+            "value": "327",
+            "parentValue": "27",
+            "label": "延安市",
+            "children": null
+          },
+          {
+            "value": "328",
+            "parentValue": "27",
+            "label": "汉中市",
+            "children": null
+          },
+          {
+            "value": "329",
+            "parentValue": "27",
+            "label": "榆林市",
+            "children": null
+          },
+          {
+            "value": "330",
+            "parentValue": "27",
+            "label": "安康市",
+            "children": null
+          },
+          {
+            "value": "331",
+            "parentValue": "27",
+            "label": "商洛市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "28",
+        "parentValue": "0001",
+        "label": "甘肃省",
+        "children": [
+          {
+            "value": "332",
+            "parentValue": "28",
+            "label": "兰州市",
+            "children": null
+          },
+          {
+            "value": "333",
+            "parentValue": "28",
+            "label": "嘉峪关市",
+            "children": null
+          },
+          {
+            "value": "334",
+            "parentValue": "28",
+            "label": "金昌市",
+            "children": null
+          },
+          {
+            "value": "335",
+            "parentValue": "28",
+            "label": "白银市",
+            "children": null
+          },
+          {
+            "value": "336",
+            "parentValue": "28",
+            "label": "天水市",
+            "children": null
+          },
+          {
+            "value": "337",
+            "parentValue": "28",
+            "label": "武威市",
+            "children": null
+          },
+          {
+            "value": "338",
+            "parentValue": "28",
+            "label": "张掖市",
+            "children": null
+          },
+          {
+            "value": "339",
+            "parentValue": "28",
+            "label": "平凉市",
+            "children": null
+          },
+          {
+            "value": "340",
+            "parentValue": "28",
+            "label": "酒泉市",
+            "children": null
+          },
+          {
+            "value": "341",
+            "parentValue": "28",
+            "label": "庆阳市",
+            "children": null
+          },
+          {
+            "value": "342",
+            "parentValue": "28",
+            "label": "定西市",
+            "children": null
+          },
+          {
+            "value": "343",
+            "parentValue": "28",
+            "label": "陇南市",
+            "children": null
+          },
+          {
+            "value": "344",
+            "parentValue": "28",
+            "label": "临夏回族自治州",
+            "children": null
+          },
+          {
+            "value": "345",
+            "parentValue": "28",
+            "label": "甘南藏族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "29",
+        "parentValue": "0001",
+        "label": "青海省",
+        "children": [
+          {
+            "value": "346",
+            "parentValue": "29",
+            "label": "西宁市",
+            "children": null
+          },
+          {
+            "value": "347",
+            "parentValue": "29",
+            "label": "海东地区",
+            "children": null
+          },
+          {
+            "value": "348",
+            "parentValue": "29",
+            "label": "海北藏族自治州",
+            "children": null
+          },
+          {
+            "value": "349",
+            "parentValue": "29",
+            "label": "黄南藏族自治州",
+            "children": null
+          },
+          {
+            "value": "350",
+            "parentValue": "29",
+            "label": "海南藏族自治州",
+            "children": null
+          },
+          {
+            "value": "351",
+            "parentValue": "29",
+            "label": "果洛藏族自治州",
+            "children": null
+          },
+          {
+            "value": "352",
+            "parentValue": "29",
+            "label": "玉树藏族自治州",
+            "children": null
+          },
+          {
+            "value": "353",
+            "parentValue": "29",
+            "label": "海西蒙古族藏族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "3",
+        "parentValue": "0001",
+        "label": "河北省",
+        "children": [
+          {
+            "value": "37",
+            "parentValue": "3",
+            "label": "石家庄市",
+            "children": null
+          },
+          {
+            "value": "38",
+            "parentValue": "3",
+            "label": "唐山市",
+            "children": null
+          },
+          {
+            "value": "39",
+            "parentValue": "3",
+            "label": "秦皇岛市",
+            "children": null
+          },
+          {
+            "value": "40",
+            "parentValue": "3",
+            "label": "邯郸市",
+            "children": null
+          },
+          {
+            "value": "41",
+            "parentValue": "3",
+            "label": "邢台市",
+            "children": null
+          },
+          {
+            "value": "42",
+            "parentValue": "3",
+            "label": "保定市",
+            "children": null
+          },
+          {
+            "value": "43",
+            "parentValue": "3",
+            "label": "张家口市",
+            "children": null
+          },
+          {
+            "value": "44",
+            "parentValue": "3",
+            "label": "承德市",
+            "children": null
+          },
+          {
+            "value": "45",
+            "parentValue": "3",
+            "label": "沧州市",
+            "children": null
+          },
+          {
+            "value": "46",
+            "parentValue": "3",
+            "label": "廊坊市",
+            "children": null
+          },
+          {
+            "value": "47",
+            "parentValue": "3",
+            "label": "衡水市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "30",
+        "parentValue": "0001",
+        "label": "宁夏回族自治区",
+        "children": [
+          {
+            "value": "354",
+            "parentValue": "30",
+            "label": "银川市",
+            "children": null
+          },
+          {
+            "value": "355",
+            "parentValue": "30",
+            "label": "石嘴山市",
+            "children": null
+          },
+          {
+            "value": "356",
+            "parentValue": "30",
+            "label": "吴忠市",
+            "children": null
+          },
+          {
+            "value": "357",
+            "parentValue": "30",
+            "label": "固原市",
+            "children": null
+          },
+          {
+            "value": "358",
+            "parentValue": "30",
+            "label": "中卫市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "31",
+        "parentValue": "0001",
+        "label": "新疆维吾尔自治区",
+        "children": [
+          {
+            "value": "359",
+            "parentValue": "31",
+            "label": "乌鲁木齐市",
+            "children": null
+          },
+          {
+            "value": "360",
+            "parentValue": "31",
+            "label": "克拉玛依市",
+            "children": null
+          },
+          {
+            "value": "361",
+            "parentValue": "31",
+            "label": "吐鲁番地区",
+            "children": null
+          },
+          {
+            "value": "362",
+            "parentValue": "31",
+            "label": "哈密地区",
+            "children": null
+          },
+          {
+            "value": "363",
+            "parentValue": "31",
+            "label": "昌吉回族自治州",
+            "children": null
+          },
+          {
+            "value": "364",
+            "parentValue": "31",
+            "label": "博尔塔拉蒙古自治州",
+            "children": null
+          },
+          {
+            "value": "365",
+            "parentValue": "31",
+            "label": "巴音郭楞蒙古自治州",
+            "children": null
+          },
+          {
+            "value": "366",
+            "parentValue": "31",
+            "label": "阿克苏地区",
+            "children": null
+          },
+          {
+            "value": "367",
+            "parentValue": "31",
+            "label": "克孜勒苏柯尔克孜自治州",
+            "children": null
+          },
+          {
+            "value": "368",
+            "parentValue": "31",
+            "label": "喀什地区",
+            "children": null
+          },
+          {
+            "value": "369",
+            "parentValue": "31",
+            "label": "和田地区",
+            "children": null
+          },
+          {
+            "value": "370",
+            "parentValue": "31",
+            "label": "伊犁哈萨克自治州",
+            "children": null
+          },
+          {
+            "value": "371",
+            "parentValue": "31",
+            "label": "塔城地区",
+            "children": null
+          },
+          {
+            "value": "372",
+            "parentValue": "31",
+            "label": "阿勒泰地区",
+            "children": null
+          },
+          {
+            "value": "373",
+            "parentValue": "31",
+            "label": "石河子市",
+            "children": null
+          },
+          {
+            "value": "374",
+            "parentValue": "31",
+            "label": "阿拉尔市",
+            "children": null
+          },
+          {
+            "value": "375",
+            "parentValue": "31",
+            "label": "图木舒克市",
+            "children": null
+          },
+          {
+            "value": "376",
+            "parentValue": "31",
+            "label": "五家渠市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "32",
+        "parentValue": "0001",
+        "label": "香港特别行政区",
+        "children": [
+          {
+            "value": "377",
+            "parentValue": "32",
+            "label": "香港特别行政区",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "33",
+        "parentValue": "0001",
+        "label": "澳门特别行政区",
+        "children": [
+          {
+            "value": "378",
+            "parentValue": "33",
+            "label": "澳门特别行政区",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "34",
+        "parentValue": "0001",
+        "label": "台湾省",
+        "children": [
+          {
+            "value": "379",
+            "parentValue": "34",
+            "label": "台湾省",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "4",
+        "parentValue": "0001",
+        "label": "山西省",
+        "children": [
+          {
+            "value": "48",
+            "parentValue": "4",
+            "label": "太原市",
+            "children": null
+          },
+          {
+            "value": "49",
+            "parentValue": "4",
+            "label": "大同市",
+            "children": null
+          },
+          {
+            "value": "50",
+            "parentValue": "4",
+            "label": "阳泉市",
+            "children": null
+          },
+          {
+            "value": "51",
+            "parentValue": "4",
+            "label": "长治市",
+            "children": null
+          },
+          {
+            "value": "52",
+            "parentValue": "4",
+            "label": "晋城市",
+            "children": null
+          },
+          {
+            "value": "53",
+            "parentValue": "4",
+            "label": "朔州市",
+            "children": null
+          },
+          {
+            "value": "54",
+            "parentValue": "4",
+            "label": "晋中市",
+            "children": null
+          },
+          {
+            "value": "55",
+            "parentValue": "4",
+            "label": "运城市",
+            "children": null
+          },
+          {
+            "value": "56",
+            "parentValue": "4",
+            "label": "忻州市",
+            "children": null
+          },
+          {
+            "value": "57",
+            "parentValue": "4",
+            "label": "临汾市",
+            "children": null
+          },
+          {
+            "value": "58",
+            "parentValue": "4",
+            "label": "吕梁市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "5",
+        "parentValue": "0001",
+        "label": "内蒙古自治区",
+        "children": [
+          {
+            "value": "59",
+            "parentValue": "5",
+            "label": "呼和浩特市",
+            "children": null
+          },
+          {
+            "value": "60",
+            "parentValue": "5",
+            "label": "包头市",
+            "children": null
+          },
+          {
+            "value": "61",
+            "parentValue": "5",
+            "label": "乌海市",
+            "children": null
+          },
+          {
+            "value": "62",
+            "parentValue": "5",
+            "label": "赤峰市",
+            "children": null
+          },
+          {
+            "value": "63",
+            "parentValue": "5",
+            "label": "通辽市",
+            "children": null
+          },
+          {
+            "value": "64",
+            "parentValue": "5",
+            "label": "鄂尔多斯市",
+            "children": null
+          },
+          {
+            "value": "65",
+            "parentValue": "5",
+            "label": "呼伦贝尔市",
+            "children": null
+          },
+          {
+            "value": "66",
+            "parentValue": "5",
+            "label": "巴彦淖尔市",
+            "children": null
+          },
+          {
+            "value": "67",
+            "parentValue": "5",
+            "label": "乌兰察布市",
+            "children": null
+          },
+          {
+            "value": "68",
+            "parentValue": "5",
+            "label": "兴安盟",
+            "children": null
+          },
+          {
+            "value": "69",
+            "parentValue": "5",
+            "label": "锡林郭勒盟",
+            "children": null
+          },
+          {
+            "value": "70",
+            "parentValue": "5",
+            "label": "阿拉善盟",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "6",
+        "parentValue": "0001",
+        "label": "辽宁省",
+        "children": [
+          {
+            "value": "71",
+            "parentValue": "6",
+            "label": "沈阳市",
+            "children": null
+          },
+          {
+            "value": "72",
+            "parentValue": "6",
+            "label": "大连市",
+            "children": null
+          },
+          {
+            "value": "73",
+            "parentValue": "6",
+            "label": "鞍山市",
+            "children": null
+          },
+          {
+            "value": "74",
+            "parentValue": "6",
+            "label": "抚顺市",
+            "children": null
+          },
+          {
+            "value": "75",
+            "parentValue": "6",
+            "label": "本溪市",
+            "children": null
+          },
+          {
+            "value": "76",
+            "parentValue": "6",
+            "label": "丹东市",
+            "children": null
+          },
+          {
+            "value": "77",
+            "parentValue": "6",
+            "label": "锦州市",
+            "children": null
+          },
+          {
+            "value": "78",
+            "parentValue": "6",
+            "label": "营口市",
+            "children": null
+          },
+          {
+            "value": "79",
+            "parentValue": "6",
+            "label": "阜新市",
+            "children": null
+          },
+          {
+            "value": "80",
+            "parentValue": "6",
+            "label": "辽阳市",
+            "children": null
+          },
+          {
+            "value": "81",
+            "parentValue": "6",
+            "label": "盘锦市",
+            "children": null
+          },
+          {
+            "value": "82",
+            "parentValue": "6",
+            "label": "铁岭市",
+            "children": null
+          },
+          {
+            "value": "83",
+            "parentValue": "6",
+            "label": "朝阳市",
+            "children": null
+          },
+          {
+            "value": "84",
+            "parentValue": "6",
+            "label": "葫芦岛市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "7",
+        "parentValue": "0001",
+        "label": "吉林省",
+        "children": [
+          {
+            "value": "85",
+            "parentValue": "7",
+            "label": "长春市",
+            "children": null
+          },
+          {
+            "value": "86",
+            "parentValue": "7",
+            "label": "吉林市",
+            "children": null
+          },
+          {
+            "value": "87",
+            "parentValue": "7",
+            "label": "四平市",
+            "children": null
+          },
+          {
+            "value": "88",
+            "parentValue": "7",
+            "label": "辽源市",
+            "children": null
+          },
+          {
+            "value": "89",
+            "parentValue": "7",
+            "label": "通化市",
+            "children": null
+          },
+          {
+            "value": "90",
+            "parentValue": "7",
+            "label": "白山市",
+            "children": null
+          },
+          {
+            "value": "91",
+            "parentValue": "7",
+            "label": "松原市",
+            "children": null
+          },
+          {
+            "value": "92",
+            "parentValue": "7",
+            "label": "白城市",
+            "children": null
+          },
+          {
+            "value": "93",
+            "parentValue": "7",
+            "label": "延边朝鲜族自治州",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "8",
+        "parentValue": "0001",
+        "label": "黑龙江省",
+        "children": [
+          {
+            "value": "100",
+            "parentValue": "8",
+            "label": "伊春市",
+            "children": null
+          },
+          {
+            "value": "101",
+            "parentValue": "8",
+            "label": "佳木斯市",
+            "children": null
+          },
+          {
+            "value": "102",
+            "parentValue": "8",
+            "label": "七台河市",
+            "children": null
+          },
+          {
+            "value": "103",
+            "parentValue": "8",
+            "label": "牡丹江市",
+            "children": null
+          },
+          {
+            "value": "104",
+            "parentValue": "8",
+            "label": "黑河市",
+            "children": null
+          },
+          {
+            "value": "105",
+            "parentValue": "8",
+            "label": "绥化市",
+            "children": null
+          },
+          {
+            "value": "106",
+            "parentValue": "8",
+            "label": "大兴安岭地区",
+            "children": null
+          },
+          {
+            "value": "94",
+            "parentValue": "8",
+            "label": "哈尔滨市",
+            "children": null
+          },
+          {
+            "value": "95",
+            "parentValue": "8",
+            "label": "齐齐哈尔市",
+            "children": null
+          },
+          {
+            "value": "96",
+            "parentValue": "8",
+            "label": "鸡西市",
+            "children": null
+          },
+          {
+            "value": "97",
+            "parentValue": "8",
+            "label": "鹤岗市",
+            "children": null
+          },
+          {
+            "value": "98",
+            "parentValue": "8",
+            "label": "双鸭山市",
+            "children": null
+          },
+          {
+            "value": "99",
+            "parentValue": "8",
+            "label": "大庆市",
+            "children": null
+          }
+        ]
+      },
+      {
+        "value": "9",
+        "parentValue": "0001",
+        "label": "上海市",
+        "children": [
+          {
+            "value": "107",
+            "parentValue": "9",
+            "label": "上海市",
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "0002",
+    "parentValue": "-1",
+    "label": "其他"
+  }
+]

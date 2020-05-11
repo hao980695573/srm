@@ -1,0 +1,204 @@
+body{
+  margin:0px;
+}
+
+.a{
+  page-break-after:always !important
+}
+
+.tab_company_out {
+  text-align: center;
+  width: 100%;
+  height:4100px;
+  position: relative;
+  letter-spacing:1px;
+}
+
+.title_warp {
+  margin:0px auto;
+  margin-bottom:5px;
+}
+
+.title_top {
+  width:100%;
+  height: 80px;
+  position: relative;
+  top:10px;
+  left:0px;
+}
+
+.title_top_left {
+  width:1200px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  font-size: 60px;
+  text-align: left;
+  line-height: 65px;
+}
+
+.title_img {
+  width:100%;
+  height:300px;
+  margin-bottom:10px;
+}
+
+.title_top_code{
+  width:250px;
+  height:250px;
+  position: absolute;
+  right:850px;
+  top:0px;
+}
+
+.title_top_right {
+  width: 800px;
+  font-size: 60px;
+  text-align: left;
+  line-height: 65px;
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+
+.title_center {
+  position: relative;
+  left:0px;
+  top:200px;
+  font-size: 90px;
+}
+
+.title_bottom {
+  width:100%;
+  height:48px;
+  font-size: 60px;
+  position: relative;
+  top:200px;
+  left:0px;
+}
+
+.title_bottom_left {
+  width:1200px;
+  height: 170px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  font-size: 60px;
+  text-align:left;
+}
+
+.title_bottom_right {
+  width: 800px;
+  line-height: 65px;
+  position: absolute;
+  right:0px;
+  top:0px;
+  font-size: 60px;
+  text-align:left;
+}
+
+.PurchaseWrap {
+  width:100%;
+  position: relative;
+  top:300px;
+  left:0px;
+  text-align:left;
+  font-size: 60px;
+  line-height:17px;
+}
+
+.kehubianma{
+  width:2600px;
+  line-height: 60px;
+  display:inline-block
+}
+
+.Purchase_item{
+  width:2600px;
+  height:60px;
+  line-height: 60px;
+  display:inline-block;
+}
+
+.table_warp{
+  position: relative;
+  top:330px;
+  left:0px;
+}
+
+table {
+  width: 3000px;
+  border: 2px solid #000;
+}
+
+table th{
+  line-height:40px;
+  font-size: 55px;
+  height: 150px;
+  border: 3px solid #000;
+}
+
+table tr td {
+  padding-top:5px;
+  padding-bottom:5px;
+  border: 3px solid #000;
+  font-size: 60px;
+  height: 110px;
+  line-height: 70px;
+  text-align:center
+}
+
+.footer_warp {
+  width:100%;
+  height:50px;
+  font-size: 60px;
+  margin-top:90px;
+  position: relative;
+}
+
+.footer_warp1{
+  position: absolute;
+  left:200px;
+  top:0px;
+}
+
+.footer_warp2{
+  position: absolute;
+  left:850px;
+  top:0px;
+}
+
+.footer_warp3{
+  position: absolute;
+  left:1700px;
+  top:0px;
+}
+
+.footer_warp4{
+  position: absolute;
+  right:200px;
+  top:0px;
+}
+
+
+.xuhao{
+  width:120px;
+}
+.pinming{
+  width:200px
+}
+.pinhao{
+  width:350px
+}
+.danwei{
+  width:200px
+}
+.shuliang{
+  width:200px
+}
+.beipin{
+  width:150px
+}
+.guige{
+  width:200px;
+}

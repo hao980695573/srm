@@ -1,0 +1,95 @@
+.a{
+  page-break-after:always !important
+}
+
+
+.printWrap {
+  margin-top:30px;
+}
+
+.printWrap:first-child {
+  margin: 0px;
+}
+
+
+.title_warp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commpany_warp{
+  margin:2px 0px;
+  display: flex;
+  font-size:12px;
+  justify-content: space-between;
+}
+
+.commpany_warp1{
+  display:inline-block;
+  width:250px;
+  font-size:12px;
+  text-align:left;
+  float:left ;
+  margin-top:-1px;
+}
+
+.commpany_warp2{
+  display:inline-block;
+  font-size:12px;
+  width:250px;
+  text-align:left;
+}
+
+.commpany_warp3{
+  display:inline-block;
+  font-size:12px;
+  width: 200px;
+  margin-top: -1px;
+  text-align: left;
+  float: right
+}
+
+.tab_company_out {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  letter-spacing:1px
+}
+
+table {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-right: 2px solid #000;
+  font-size: 12px;
+}
+
+table tr td {
+  border: 2px solid #000;
+  border-bottom: none;
+  border-right: none;
+  height: 20px;
+  line-height: 20px;
+  text-align:center;
+  font-size: 12px;
+}
+
+table tr th {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  height: 22px;
+  line-height: 22px;
+
+}
+
+.footer_warp {
+  width:100%;
+  margin-top:20px;
+  position:relative;
+}
+
+.footer_title{
+  text-align:left;
+}

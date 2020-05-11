@@ -1,0 +1,2 @@
+webpackJsonp([5],{hr2e:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("404页面")])},staticRenderFns:[]},l=n("VU/8")({name:"404"},r,!1,null,null,null);t.default=l.exports}});
+//# sourceMappingURL=5.4754355d6acb4010c93f.js.map

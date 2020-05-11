@@ -1,0 +1,26 @@
+html,body{
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+}
+
+a{
+    text-decoration:none;
+    width: 100%;
+    color:#fff;
+}
+
+
+
+/*通过状态*/
+.pass{
+ color:#67C23A
+}
+
+.fail{
+ color:#F56C6C
+}
+
+
+
