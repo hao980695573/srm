@@ -119,6 +119,7 @@
           Interface.Font_Max('pinming',24)
         },700)
         // 求当前数据能打印的页数
+        console.log(this.barCodeList.length)
         if(this.barCodeList.length>0){
           var pages_ = this.barCodeList.length
           return pages_ <= 0 ? 1 : pages_
@@ -141,10 +142,13 @@
               LODOP=getLodop();
               var strStyleCSS2="<link href='../../../../static/styles/uu.css' type='text/css' rel='stylesheet'>";
               var strFormHtml="<head>"+strStyleCSS2+"</head><body>"+document.getElementById("Printing").innerHTML+"</body>";
-
+              //top,left,width.height
               LODOP.ADD_PRINT_HTM("5mm","8mm","RightMargin:5cm","1100", strFormHtml);
+              //缩放大小按比例
               LODOP.SET_PRINT_MODE("PRINT_PAGE_PERCENT", "Auto-Width");
+              //允许重选纸张
               LODOP.SET_PRINT_MODE("RESELECT_PAGESIZE",true);
+              //打印预览
               LODOP.PREVIEW();
             },500)
           }else {

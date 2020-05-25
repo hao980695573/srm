@@ -62,7 +62,7 @@
               <el-button type="primary" style='margin-left:10px' size='mini' @click='handleCurrentChange("search")'>搜索</el-button>
             </el-form-item>
             <el-form-item>
-              <el-button type="primary" style='margin-left:10px' size='mini' @click='downloadFiles'
+              <el-button type="primary" style='margin-left:10px' size='mini' @click=' '
                          :disabled='tableData.length==0'>导出
               </el-button>
             </el-form-item>

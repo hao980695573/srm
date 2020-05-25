@@ -2,7 +2,7 @@
   <div>
     <!--搜索-->
     <div class='inquiry_warp'>
-      <el-form ref="screen_data" :model="screen_data" label-width="80px" :inline="true" size='mini'>
+      <el-form ref="screen_data" :model="screen_data" label-width="80px" :inline="true" size='mini' >
         <el-form-item label="企业类型">
           <el-select v-model="screen_data.companyType" placeholder="请选择" style='width: 100px'>
             <el-option label="请选择" value=" "></el-option>
@@ -24,7 +24,10 @@
           <el-input v-model="screen_data.conditionContent" placeholder="模糊搜索"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" class='Fuzzy' @click='changePage("screen")'>搜索</el-button>
+          <el-button type="primary" class='Fuzzy' @click='changePage("screen")'>搜索1</el-button>
+        </el-form-item>
+        <el-form-item>
+          <el-button type="primary" class='Fuzzy' @click='handleExport'>导出</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -34,7 +37,9 @@
               element-loading-background="rgba(0, 0, 0, 0.8)"
               height='415'
               size='mini'
+              @selection-change="handleSelectionChange"
     >
+      <el-table-column type="selection" align="center" ></el-table-column>
       <el-table-column
         align="center"
         prop="companyName"
@@ -146,6 +151,8 @@
     name: 'Inquiry',
     data() {
       return {
+        //测试
+        json: [],
         // 文件上传token
         headerToken:{
           Authorization: localStorage.getItem('token')
@@ -242,6 +249,7 @@
     mounted() {
       // 获取档案列表
       this.changePage()
+      console.log(this.json);
     },
     computed: {
       // 获取 uuid 角色身份
@@ -250,6 +258,55 @@
     methods: {
       // 改变uuid，改变公共状态
       ...mapMutations(['changeUuid']),
+
+        handleExport() {
+          if (this.json) {
+            import('@/api/Export2Excel').then(excel => {
+              const tHeader = ['公司名称', '企业性质']
+              const filterVal = ['companyName', 'companyNature']
+              console.log("进excel")
+              const filterJson = this.filterJson(this.json)
+              const data = this.formatJson(filterJson, filterVal)
+              console.log(this.json)
+              console.log(filterJson)
+              console.log(filterVal)
+              console.log(this.formatJson(filterJson, filterVal))
+              excel.export_json_to_excel({
+                'header': tHeader,
+                'data': data,
+                'filename': this.filename || 'example',
+                'autoWidth': true
+              })
+              this.$refs.screen_data.clearSelection()
+            })
+          }
+        },
+      filterJson(json) {
+        let res = []
+        json.forEach((item, index) => {
+          let obj = {}
+          obj.companyName = item.companyName
+          obj.companyNature = item.companyNature
+          res.push(obj)
+          console.log(res)
+          console.log(json)
+        })
+        return res
+      },
+      formatJson(json, filterVal) {
+        let data = json.map(item => filterVal.map(key => {
+          console.log(json)
+          console.log(item)
+          console.log(key)
+          /*返回键的值*/
+          return item[key]
+        }))
+        return data
+      },
+      handleSelectionChange(val) {
+        this.json = val
+        console.log(this.json)
+      },
       // 进入编辑模块
       haldEditor(scope) {
         // 存储uuid

@@ -172,6 +172,7 @@
         }
         axios.post(config.api, '/offermanagement/listAllqueries.do', params).then((res) => {
           this.InquiryList = res.data
+          console.log(this.InquiryList)
           // 加载完成
           this.loading = false
           // 总数

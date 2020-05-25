@@ -16,8 +16,9 @@
           :label="item.title"
           :name="item.route"
         >
-          {{item.route}}
+          {{openTab}}
         </el-tab-pane>
+        {{this.$route.meta}}
       </el-tabs>
     </div>
     <div>
@@ -43,6 +44,7 @@ export default {
     },
     //移除tab标签
     tabRemove(targetName){
+      console.log(targetName)
       // 根据不同角色，首页不删
       if(this.$store.state.userRole=='OWN_CLERK'){
         if(targetName == '/'||targetName == '/financialManagement/financialReconciliation'){
@@ -169,6 +171,7 @@ export default {
 </script>
 
 <style lang='stylus' scoped>
+
   .main
     position absolute
     left: 210px;

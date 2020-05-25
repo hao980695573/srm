@@ -156,12 +156,15 @@
         axios.post(config.api,'/role/getRoleRouter.do',params).then((res) => {
           // 所有权限目录
           _this.menu =res.data.allRouterList
-          console.log(_this.menu);
+          console.log( _this.menu)
           // 当前角色所拥有的权限
+          //判断把当前选择checkbox加入数组中
           res.data.currentRoleRouterList.map((item)=>{
+
             _this.menusIds.push(item.uuid)
             if(item.children.length>0){
               item.children.map((child)=>{
+
                 _this.menusIds.push(child.uuid)
               })
             }
@@ -174,28 +177,36 @@
         let self = this;
         if (type == 2) { // 二级菜单点击
           let index = 0;
+
           self.menu[a].children.map(item => {
             if (self.menusIds.indexOf(item.uuid) > -1) {
               index += 1;
             }
           })
+          console.log(a)
           if (index > 0) {
             if (self.menusIds.indexOf(self.menu[a].uuid) < 0) {
               self.menusIds.push(self.menu[a].uuid);
             }
-          } else {
+          }
+        //如果整行为空
+        else {
             if (self.menusIds.indexOf(self.menu[a].uuid) > 0) {
               self.menusIds.splice(self.menusIds.indexOf(self.menu[a].uuid), 1);
             }
           }
-        } else {
+        }
+        //点击大标题
+        else {
           if (self.menusIds.indexOf(self.menu[a].uuid) > -1) {
             self.menu[a].children.map(item => {
               if (self.menusIds.findIndex((n) => n == item.uuid) < 0) {
                 self.menusIds.push(item.uuid)
               }
             })
-          } else {
+          }
+          //大标题为空的时候
+          else {
             self.menu[a].children.map(item => {
               if (self.menusIds.findIndex((n) => n == item.uuid) > -1) {
                 self.menusIds.splice(self.menusIds.findIndex((n) => n == item.uuid), 1);
@@ -211,6 +222,8 @@
         const indexLength= this.menusIds.length
         if(this.menusIds.length>0){
           this.menusIds.map((item,index)=>{
+            console.log(this.menusIds)
+            console.log(item);
             if(index<indexLength){
               params.push({
                 selectRoleuuid: this.uuid,
@@ -218,10 +231,7 @@
                 routeruuid:item
               })
               // 如果遍历完成
-              console.log(index);
               if((index+1)===indexLength){
-                console.log(params);
-                console.log('aa')
                 axios.post(config.api,'/role/updateRoleRouter.do',params).then((res) => {
                   let _this = this
                   this.$alert(res.msg, {

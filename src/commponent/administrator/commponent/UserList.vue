@@ -296,6 +296,7 @@
       },
       // 禁用账号
       forbiddenUser(data){
+        console.log(data);
         if(data.status==1){
           this.$alert('该账户已被禁用',{
             confirmButtonText:'确定',

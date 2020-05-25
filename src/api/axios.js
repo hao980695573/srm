@@ -51,7 +51,8 @@ axios.interceptors.response.use(response => {
       }
     })
   } else if (response.headers.token) { // 判断token是否存在，如果存在说明需要更新token
-      localStorage.setItem('token', response.headers.token);  // 覆盖原来的token
+    console.log(response);
+    localStorage.setItem('token', response.headers.token);  // 覆盖原来的token
   }
   return response
 }, error => {
@@ -106,6 +107,7 @@ get(baseUrl,url, params) {
       params: params,
       responseType: 'blob'
     }).then(res => {
+      console.log(this.blob)
       return checkStatus(res);
     }).catch(err => {
       return checkStatus(err)

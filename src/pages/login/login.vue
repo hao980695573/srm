@@ -113,9 +113,14 @@
       let validateYanzhen=(rule, value, callback) => {
         if (value === '') {
           return callback(new Error('验证码不能为空'))
-        } else if (value!=this.verify.toUpperCase()&&value!=this.verify) {
+
+        } else if (value.toUpperCase()!=this.verify.toUpperCase()&&value.toUpperCase()!=this.verify) {
           return callback(new Error('验证码不正确'))
         } else {
+          this.$message({
+            message: '登陆成功',
+            type: 'success'
+          });
           callback()
         }
       }
@@ -207,6 +212,7 @@
         this.$refs[ruleForm].validate((valid) => {
           if (valid) {
             // 重复提交校验
+            console.log(config);
             if(config.submitSign){
               // 禁止重复提交
               config.submitSign=false
@@ -228,6 +234,7 @@
                 password:this.ruleForm.password
               }
               axios.post(config.api,'/user/login',params).then((res) => {
+
                 // 允许提交
                 config.submitSign=true
                 console.log(res);

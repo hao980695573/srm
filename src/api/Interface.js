@@ -6,12 +6,15 @@ export default {
   dentifying() {
     /*生成4位随机数*/
     function rand() {
-      var str = "0123456789";
+    //  var str = "0123456789";
+      var str = "0123456789ABCDEFG";
+      var strlen = str.length
       var arr = str.split("");
+      console.log(arr)
       var validate = "";
       var ranNum;
       for (var i = 0; i < 4; i++) {
-        ranNum = Math.floor(Math.random() * 9);   //随机数在[0,35]之间
+        ranNum = Math.floor(Math.random() * strlen);   //随机数在[0,35]之间
         validate += arr[ranNum];
       }
       store.commit('verifyChange', validate);

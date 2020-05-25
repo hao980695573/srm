@@ -19,7 +19,6 @@ router.beforeEach((to, from, next) => {
   // 判断是否有token
   if (localStorage.getItem('token')!=null&&localStorage.getItem('token')!="undefined") {
     //不加这个判断，路由会陷入死循环
-    console.log(getRouter)
     if (!getRouter) {
       if (!getObjArr('router')) {
         let uuid={
@@ -59,7 +58,6 @@ router.beforeEach((to, from, next) => {
     if(to.path=='/'||to.path=='/newsList'||to.path=='/newsDetails'){
       next()
     }else{
-      console.log(to)
       next('/')
     }
   }
@@ -84,6 +82,7 @@ function getObjArr(name) { //localStorage 获取数组对象的方法
 function filterAsyncRouter(asyncRouterMap) { //遍历后台传来的路由字符串，转换为组件对象
   const accessedRouters = asyncRouterMap.filter(route => {
     if (route.component) {
+
       if (route.component === 'dashboard') { //Layout组件特殊处理
         route.component = dashboard
       } else {
@@ -95,5 +94,6 @@ function filterAsyncRouter(asyncRouterMap) { //遍历后台传来的路由字符
     }
     return true
   })
+
   return accessedRouters
 }

@@ -23,6 +23,11 @@ export const fixedRouter = [{
     hidden: true
   },
   {
+    path: '/TEST',
+    component: (resolve) => require(['@/pages/TEST/TEST'], resolve),
+    hidden: true
+  },
+  {
     path: "*",
     component:(resolve) => require(['@/common/404/404'], resolve),
   }]

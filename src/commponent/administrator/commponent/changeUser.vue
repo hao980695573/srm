@@ -84,6 +84,7 @@
             this.menu =res.data.allRouterList
             // 当前角色所拥有的权限
             res.data.currentRoleRouterList.map((item)=>{
+              console.log(item)
               this.menusIds.push(item.uuid)
               if(item.children.length>0){
                 item.children.map((child)=>{
@@ -132,7 +133,9 @@
       // 确定修改权限
       hlandfailure(){
         let arr=[]
+        console.log(this.menusIds)
         this.menusIds.map((item,index)=>{
+          console.log(this.menusIds)
           arr.push({
             routeruuid:item
           })

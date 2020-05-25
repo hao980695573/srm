@@ -360,6 +360,7 @@
             axios.post(config.api, '/barcode/addBarcodeInformation.do', params).then((res) => {
               if (res.status == 0) {
                 this.getBarcodeList(res.data)
+                console.log(res.data)
                 // 加载关闭
                 loads.close()
               } else {
@@ -385,6 +386,7 @@
         axios.post(config.api, '/barcode/getBarcodeDetailList.do', params).then((res) => {
           if (res.status == 0) {
             this.changeBarCodeList(res.data)
+            console.log(res.data)
             // 清空选择数据
             this.$refs['form'].resetFields()
             this.form.remark = ''
