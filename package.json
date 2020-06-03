@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "echarts": "^4.8.0",
     "element-ui": "^2.13.0",
     "file-saver": "^2.0.2",
     "moment": "^2.24.0",
@@ -19,6 +20,7 @@
     "stylus-loader": "^3.0.2",
     "v-contextmenu": "^2.9.0",
     "vue": "^2.5.2",
+    "vue-amap": "^0.5.10",
     "vue-router": "^3.0.1",
     "vue-runtime-helpers": "^1.1.2",
     "vue-schart": "^2.0.0",

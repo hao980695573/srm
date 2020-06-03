@@ -337,6 +337,7 @@
           // 赋值档案列表
           if(res.status==0){
             this.tableData = res.data
+            console.log(res.data)
             // 总条数
             if(res.data.length>0){
               this.totalNum = res.data[0].totalNum

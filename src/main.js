@@ -22,6 +22,10 @@ Vue.use(contentmenu)
 import 'common/promission.js'
 Vue.config.productionTip = false
 
+//引入echarts
+import echarts from 'echarts' //引入echarts
+Vue.prototype.$echarts = echarts //引入组件
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
