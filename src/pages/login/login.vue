@@ -117,10 +117,7 @@
         } else if (value.toUpperCase()!=this.verify.toUpperCase()&&value.toUpperCase()!=this.verify) {
           return callback(new Error('验证码不正确'))
         } else {
-          this.$message({
-            message: '登陆成功',
-            type: 'success'
-          });
+
           callback()
         }
       }

@@ -9,47 +9,11 @@
   }
 </script>
 -->
-<!--<template>
-  <div>
-    <div class="crumbs">
-      <el-breadcrumb separator="/">
-        <el-breadcrumb-item>
-          <i class="el-icon-pie-chart"></i> schart图表
-        </el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
-    <div class="container">
-      <div class="plugins-tips">
-        vue-schart：vue.js封装sChart.js的图表组件。
-        访问地址：
-        <a
-          href="https://github.com/lin-xin/vue-schart"
-          target="_blank"
-        >vue-schart</a>
-      </div>
-      <div class="schart-box">
-        <div class="content-title">柱状图</div>
-        <schart class="schart" canvasId="bar" :options="options1"></schart>
-      </div>
-      <div class="schart-box">
-        <div class="content-title">折线图</div>
-        <schart class="schart" canvasId="line" :options="options2"></schart>
-      </div>
-      <div class="schart-box">
-        <div class="content-title">饼状图</div>
-        <schart class="schart" canvasId="pie" :options="options3"></schart>
-      </div>
-      <div class="schart-box">
-        <div class="content-title">环形图</div>
-        <schart class="schart" canvasId="ring" :options="options4"></schart>
-      </div>
-    </div>
-  </div>
-</template>-->
+
 <template>
   <div>
+    <div>测试echart</div>
     <div  class="test1" id="myChart" ></div>
-    <div class="test"></div>
   </div>
 </template>
 
@@ -370,15 +334,7 @@
 </script>
 
 <style  lang="stylus" scoped>
-  div {
-    .test1 {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      border 1px solid red;
-    }
-/*    position: relative;
+
     div {
       height 100%
       width 100%
@@ -386,13 +342,8 @@
       left: 50%
       top 50%
       transform: translate(-50%,-50%)
-    }*/
-    .test {
-      width 500px
-      height 500px
-      background-color blue
     }
 
-  }
+
 </style>
 

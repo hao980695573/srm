@@ -24,10 +24,10 @@
           <el-input v-model="screen_data.conditionContent" placeholder="模糊搜索"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" class='Fuzzy' @click='changePage("screen")'>搜索1</el-button>
+          <el-button type="primary" class='Fuzzy' @click='changePage("screen")'>搜索</el-button>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" class='Fuzzy' @click='handleExport'>导出</el-button>
+          <el-button type="primary" class='Fuzzy' @click='handleExport'>导出功能</el-button>
         </el-form-item>
       </el-form>
     </div>

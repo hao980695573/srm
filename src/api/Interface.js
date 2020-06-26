@@ -14,8 +14,10 @@ export default {
       var validate = "";
       var ranNum;
       for (var i = 0; i < 4; i++) {
-        ranNum = Math.floor(Math.random() * strlen);   //随机数在[0,35]之间
+        ranNum = Math.floor(Math.random() * strlen);   //随机数生成字母数字
         validate += arr[ranNum];
+        //[]筛选键得出值
+        console.log(arr[ranNum])
       }
       store.commit('verifyChange', validate);
       return validate;

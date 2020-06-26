@@ -1,13 +1,11 @@
 <template>
   <div class='sidebar'>
     <el-menu unique-opened :default-active="$route.path" mode="vertical"  background-color="#2BB3D5" text-color="#fff" active-text-color="#F56C6C">
-      {{$route.params}}
       <!-- 遍历路由表，生成左侧菜单 -->
       <template v-for="(item,index) in meuns" v-if="!JSON.parse(item.hidden)">
         <!-- 多级菜单 -->
         <template>
           <el-submenu :index="item.path">
-            {{item.path}}
             <template slot="title">
               <i :class="item.meta.icon"></i><span slot="title"> {{item.meta.title}}</span>
             </template>
